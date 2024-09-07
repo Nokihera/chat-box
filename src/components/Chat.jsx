@@ -77,7 +77,7 @@ const Chat = () => {
 
   return (
     <div className="p-6 max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-gray-800">
+      <h2 className="text-lg md:text-3xl font-bold mb-6 text-gray-800">
         Chat with User Id: {otherUserId}
       </h2>
       <div className="bg-white p-4 rounded-lg shadow-md h-80 overflow-y-auto border border-gray-300">
