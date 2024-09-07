@@ -217,7 +217,7 @@ const NavBar = ({ setActiveSession, activeSession, setSearch }) => {
               type="text"
               placeholder="Search..."
               onChange={handleSearchChange}
-              className="rounded-md px-3 py-1 text-sm w-full"
+              className="rounded-md px-3 py-1 text-sm w-full mx-1"
             />
           </div>
         </div>
