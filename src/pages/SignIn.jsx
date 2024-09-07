@@ -1,6 +1,6 @@
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { app } from "../api/firebase";
 
 const SignIn = () => {
@@ -96,12 +96,12 @@ const SignIn = () => {
 
         <p className="mt-10 text-center text-sm text-gray-500">
           Not a member?
-          <a
-            href="/sign-up"
+          <Link
+            to={`/sign-up`}
             className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
           >
             Create an account
-          </a>
+          </Link>
         </p>
       </div>
     </div>
