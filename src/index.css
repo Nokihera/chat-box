@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.public-chat-box::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.public-chat-box::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
